@@ -1,6 +1,6 @@
 # Preston-Check Homebrew Tap
 
-Homebrew formula for [Preston-Check](https://github.com/preston-check/preston-check-) — pre-deployment fintech security audit, 284 checks across 33 frameworks.
+Homebrew formula for [Preston-Check](https://github.com/preston-check/preston-check) — pre-deployment fintech security audit, 284 checks across 33 frameworks.
 
 ## Install
 
@@ -18,6 +18,6 @@ preston-check --critical-only          # blocking issues only (~12s)
 preston-check --framework "PCI-DSS"    # scoped audit
 ```
 
-See [the main repository](https://github.com/preston-check/preston-check-) for documentation, framework coverage, and Pro/Enterprise tier features.
+See [the main repository](https://github.com/preston-check/preston-check) for documentation, framework coverage, and Pro/Enterprise tier features.
 
 Apache 2.0 licensed.
