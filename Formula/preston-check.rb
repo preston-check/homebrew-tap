@@ -13,10 +13,10 @@
 class PrestonCheck < Formula
   desc "Pre-deployment security audit for fintech and financial systems"
   homepage "https://preston-check.com"
-  url "https://github.com/preston-check/preston-check/releases/download/v1.7.10/preston-check-1.7.10.tar.gz"
-  sha256 "1b045176960cbd28cedbaefc8f9d46ed85005d4f70422ca7bf50bfb6acf140d3"
+  url "https://github.com/preston-check/preston-check/releases/download/v1.8.0/preston-check-1.8.0.tar.gz"
+  sha256 "97c2bff050a04cea8e4de5e3d0e3df3bc00ffd744b2f8176236429926f14f38b"
   license "Apache-2.0"
-  version "1.7.10"
+  version "1.8.0"
 
   depends_on "bash"
   depends_on "openssl@3"
