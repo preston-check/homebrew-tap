@@ -19,7 +19,7 @@ class PrestonCheck < Formula
   version "1.8.0"
 
   depends_on "bash"
-  depends_on "openssl@3"
+  uses_from_macos "openssl"
   depends_on "gawk"
   depends_on "grep"
   depends_on "coreutils"
