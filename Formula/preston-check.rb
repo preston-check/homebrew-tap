@@ -17,6 +17,15 @@ class PrestonCheck < Formula
   license "Apache-2.0"
   version "1.8.240"
 
+  bottle do
+    root_url "https://github.com/preston-check/preston-check/releases/download/v1.8.240"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "27bcffb769b4caa837d20e5408f0f0879a5974709f64ef817beedb282320572d"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "da79e8aa146f109dd60349e9cfb834b1e7aaa81f15e2eee02f9a20c23906abf9"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "e582e6a6d5bdb6c24f96039290422d9a0416422643d8e58c1a8c4dea1d717536"
+    sha256 cellar: :any_skip_relocation, sequoia:       "901c99fd419da56de89144b462beea0f7d3ecd8cd6d671ac4169896bf8ffee52"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "42a395b8e00c1b7f15192d439696376e2d9871c73bbcfe3b7a6284cd731ce9f6"
+  end
+
 
 
 
