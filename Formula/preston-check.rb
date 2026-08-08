@@ -12,19 +12,11 @@
 class PrestonCheck < Formula
   desc "Pre-deployment security audit for fintech and financial systems"
   homepage "https://preston-check.com"
-  url "https://github.com/preston-check/preston-check/releases/download/v1.8.278/preston-check-1.8.278.tar.gz"
-  sha256 "84b88dbf90cf537644b74198ac23d575a18fbde11f26bf2cb2fdc213d583e5b1"
+  url "https://github.com/preston-check/preston-check/releases/download/v1.8.279/preston-check-1.8.279.tar.gz"
+  sha256 "cd4464d5004969974d3f50f7493b258cc79bba3f982642b79d3b44b99aeca3c8"
   license "Apache-2.0"
-  version "1.8.278"
+  version "1.8.279"
 
-  bottle do
-    root_url "https://github.com/preston-check/preston-check/releases/download/v1.8.278"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "745d9e3705a189a32679c579c08f7d26870f35697c0084489ee871623f849181"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "624d007a4085f18e72b4828ef378f8fefa977e4cd450acd7adf2801c8b13674f"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "6c4d0c886a1e4660090dff89a45913ba8dd26af201806d9c12d8eac8b1e5eccd"
-    sha256 cellar: :any_skip_relocation, sequoia:       "7850ffd436381657f41f57036b810cd5a71380e6877b17b6c296fb0d52dff2a7"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "588181c9be420b6caf0b715f992661a57ae687a48c029a6933925f68ed3999e3"
-  end
 
 
 
